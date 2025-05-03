@@ -1,0 +1,14 @@
+[
+    {
+        "type": "Camera",
+        "name": "sec",
+        "status": true,
+        "resolution": "1080p"
+    },
+    {
+        "type": "Light",
+        "name": "\u0160viesa",
+        "status": false,
+        "brightness": 75
+    }
+]
