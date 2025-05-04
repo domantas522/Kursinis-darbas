@@ -1,14 +1,15 @@
 [
     {
-        "type": "Camera",
-        "name": "sec",
-        "status": true,
-        "resolution": "1080p"
-    },
-    {
         "type": "Light",
         "name": "\u0160viesa",
-        "status": false,
+        "status": true,
         "brightness": 75
+    },
+    {
+        "type": "TV",
+        "name": "Samsung TV",
+        "status": true,
+        "channel": 35,
+        "volume": 45
     }
 ]

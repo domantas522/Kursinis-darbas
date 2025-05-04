@@ -215,7 +215,12 @@ class Valdymas:
 
                 if item["status"]:
                     device.turn_on()
+                else:
+                    device.turn_off()
+
                 self.devices.append(device)
+
+
         except FileNotFoundError:
             print("Nėra išsaugoto įrenginių failo.")
 
@@ -422,6 +427,7 @@ def main():
             break
         else:
             print("Neteisingas pasirinkimas.")
+
 
 
 if __name__ == "__main__":

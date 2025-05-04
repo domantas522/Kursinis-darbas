@@ -59,6 +59,9 @@ Programoje **Polymorphism** (polimorfizmas) įgyvendintas naudojant abstrakčią
 ## ✅ Encapsulation
 **Encapsulation** (apsaugoti duomenys) pasiekiama per uždarų (`_`) atributų naudojimą ir metodų teikimą norint kontroliuoti, kaip prie jų prieinama. Pavyzdžiui, kiekvienas įrenginys turi privačius atributus (pvz., `_status`, `_brightness`, `_temperature`), kuriems galima pasiekti tik per viešus metodus (pvz., `turn_on()`, `turn_off()`, `set_brightness()`), užtikrinant duomenų apsaugą ir valdymą.
 
+## ✅ Dependency Injection (Priklausomybės įvedimas)
+Programoje taikomas **Dependency Injection** principas. Tai reiškia, kad klasė `Valdymas` pati nesukuria `DeviceFactory` objekto, o jį gauna kaip parametrą:
+
 ## ✅ Factory Pattern
 **Factory Pattern** (Fabrikos šablonas) buvo taikomas per `DeviceFactory` klasę, kuri yra atsakinga už įrenginių kūrimą pagal tipą. Šis dizaino šablonas leidžia centralizuotai registruoti įrenginius ir lengvai sukurti įrenginius, pasitelkiant bendrą sąsają. Šis šablonas atskiria objekto kūrimą nuo kliento kodo, todėl programos plėtimas yra lengvesnis.
 
